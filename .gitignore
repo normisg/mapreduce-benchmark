@@ -1,0 +1,6 @@
+data/*
+!data/.gitkeep
+db/*
+!db/.gitkeep
+venv/
+.idea/
