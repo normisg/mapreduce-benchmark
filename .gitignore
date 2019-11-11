@@ -1,6 +1,9 @@
 data/*
-!data/.gitkeep
 db/*
+results/*
+!data/.gitkeep
 !db/.gitkeep
+!results/.gitkeep
 venv/
 .idea/
+mrjob.conf

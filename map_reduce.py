@@ -18,6 +18,7 @@ class MRMostFrequentCountries(MRJob):
             MRStep(mapper=self.mapper_get_countries,
                    combiner=self.combiner_count_countries,
                    reducer=self.reducer_count_countries),
+            MRStep(reducer=self.reducer_find_max_countries)
         ]
 
     def mapper_get_countries(self, _, line):
